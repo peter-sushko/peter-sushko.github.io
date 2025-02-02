@@ -45,6 +45,48 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr onmouseout="paper_stop()" onmouseover="paper_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='paper_image'>
+                    <img src='images/paper_teaser.png' width="180"></div>
+                  <img src='images/paper_teaser.png' width="180">
+                </div>
+                <script type="text/javascript">
+                  function paper_start() {
+                    document.getElementById('paper_image').style.opacity = "1";
+                  }
+  
+                  function paper_stop() {
+                    document.getElementById('paper_image').style.opacity = "0";
+                  }
+                  paper_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://google.com">
+                  <papertitle></papertitle>
+                </a>
+                <br>
+                Author One,
+                Author Two,
+                Author Three
+                <br>
+                <em>Conference</em>, Year
+                <br>
+                <a href="#">project page</a>
+                /
+                <a href="#">arXiv</a>
+                /
+                <a href="#">code</a>
+                <p></p>
+                <p>
+                  Paper description goes here.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
             <!-- Your future papers/projects will go here -->
 
