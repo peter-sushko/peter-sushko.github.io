@@ -30,7 +30,7 @@
                 </p>
               </td>
               <td style="padding:2.5%;width:37%;max-width:37%">
-                <a href="images/peter-sushko.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/peter-sushko.jpg" class="hoverZoomLink"></a>
+                <a href="images/profile_pic_squared.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/profile_pic_squared.jpg" class="hoverZoomLink"></a>
               </td>
             </tr>
           </tbody></table>
@@ -80,6 +80,42 @@
                 <p></p>
                 <p>
                   We introduce REALEDIT, a large-scale image editing dataset with authentic user requests and human-made edits from Reddit, enabling models to better address real-world needs. Our REALEDIT model outperforms competitors significantly and shows potential for broader applications like deepfake detection.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr onmouseout="project_stop()" onmouseover="project_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='project_image'>
+                    <img src='images/project_teaser.png' width="180"></div>
+                  <img src='images/project_teaser.png' width="180">
+                </div>
+                <script type="text/javascript">
+                  function project_start() {
+                    document.getElementById('project_image').style.opacity = "1";
+                  }
+  
+                  function project_stop() {
+                    document.getElementById('project_image').style.opacity = "0";
+                  }
+                  project_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://github.com/username/project">
+                  <papertitle>Project Name</papertitle>
+                </a>
+                <br>
+                <em>Personal Project</em>, 2024
+                <br>
+                <a href="#">demo</a>
+                /
+                <a href="#">code</a>
+                <p></p>
+                <p>
+                  Brief description of your project goes here. Explain what the project does, what technologies were used, and what problems it solves.
                 </p>
               </td>
             </tr>
