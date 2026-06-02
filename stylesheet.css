@@ -105,6 +105,30 @@ name {
   font-size: 32px;
 }
 
+.news-table {
+  width: 100%;
+  border: 0;
+  border-spacing: 0;
+  border-collapse: separate;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 8px;
+}
+
+.news-date {
+  width: 18%;
+  padding: 4px 16px;
+  vertical-align: top;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.news-item {
+  width: 82%;
+  padding: 4px 16px;
+  vertical-align: top;
+}
+
 .one {
   width: 160px;
   height: 160px;
